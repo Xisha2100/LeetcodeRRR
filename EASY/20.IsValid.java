@@ -16,7 +16,7 @@ public class IsValid {
 //        pairs.put('[', ']');
 //        pairs.put('{', '}');
 
-//
+//这里使用匿名内部类，中间是实例初始化块{}，这是实例化最先运行
         Map<Character, Character> pairs = new HashMap<Character, Character>() {
             {
                 put(')', '(');
