@@ -11,7 +11,8 @@ public class LongestCommonPrefix {
             char c = strs[0].charAt(i);
             for (int j = 1; j < strsNum; j++) {
                 if (i == strs[j].length() || c != strs[j].charAt(i))
-                    //
+                    //此处必须是先判断i和数组中字符串的关系，顺序颠倒会导致异常
+                    //Ex：{"ab","a"}
                     return strs[0].substring(0, i);
             }
         }
