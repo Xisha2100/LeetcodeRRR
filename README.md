@@ -1,4 +1,4 @@
 # LeetcodeRRR
 Leetcode recording. Rush Rush Rush
-1. 哈希
-26. 双指针
+* 哈希 1.
+* 双指针 26.27.
