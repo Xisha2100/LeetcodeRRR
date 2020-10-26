@@ -24,7 +24,7 @@ public class RemoveElement {
         return i;
     }
 
-//
+//此处方法复杂度和前者一致，但在删除元素很少时有奇效。
     public int removeElementS2(int[] nums, int val) {
         int i = 0;
         int n = nums.length;
