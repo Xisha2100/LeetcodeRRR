@@ -86,4 +86,24 @@ public class StrStr {
         }
         return -1;
     }
+    //Sunday 最快的
+    public int strStr(String haystack, String needle) {
+        //Sunday
+        int H_len = haystack.length();
+        int N_len = needle.length();
+        if (N_len == 0) return 0;
+        if (H_len == 0||H_len<N_len) return -1;
+        if (haystack.equals(needle)) return 0;
+
+        for (int i = 0; i < H_len - N_len; ) {
+            if (haystack.substring(i, i + N_len).equals(needle)) return i;
+            int offset = needle.lastIndexOf(haystack.charAt(i + N_len));
+            i += N_len-offset;
+        }
+        if(haystack.substring(H_len-N_len).equals(needle)) return H_len-N_len;
+
+        return -1;
+
+
+    }
 }
