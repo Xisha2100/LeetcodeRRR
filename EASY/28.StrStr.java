@@ -56,4 +56,34 @@ public class StrStr {
     public int charToInt(int idx, String s) {
         return (int) s.charAt(idx) - (int) 'a';
     }
+    
+    //KMP算法还需加深理解
+    public int strStr(String haystack, String needle) {
+        //KMP
+        int H_len = haystack.length();
+        int N_len = needle.length();
+        if (N_len == 0) return 0;
+        if (H_len == 0) return -1;
+        int[][] FSM = new int[N_len][256];
+        int X = 0, match = 0;
+        for (int i = 0; i < N_len; i++) {
+            match = (int) needle.charAt(i);
+            for (int j = 0; j < 256; j++) {
+                FSM[i][j] = FSM[X][j];
+            }
+            FSM[i][match] = i + 1;
+            if (i > 0) {
+                X = FSM[X][match];
+            }
+        }
+
+        int state = 0;
+        for (int i = 0; i < H_len; i++) {
+            state = FSM[state][haystack.charAt(i)];
+            if (state == N_len) {
+                return i - N_len + 1;
+            }
+        }
+        return -1;
+    }
 }
