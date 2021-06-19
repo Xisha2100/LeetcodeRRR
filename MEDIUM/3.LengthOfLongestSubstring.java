@@ -30,16 +30,55 @@ public class LengthOfLongestSubstring {
     }
 
     //改进
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring2(String s) {
         Set<Character> tempSet = new HashSet<Character>();
         int sLength = s.length();
-        int rk = 0, lk;
-        for (int i = 0; i < sLength; i++) {
-            while (rk < sLength && !tempSet.contains(s.charAt(rk))){
+        int max = 0;
+        int rk = 0, lk = 0;
+
+        while (rk < sLength) {
+            while (rk < sLength && !tempSet.contains(s.charAt(rk))) {
                 tempSet.add(s.charAt(rk));
                 rk++;
             }
-            while (s.charAt())
+
+            max = Math.max(max, rk - lk);
+
+            if (rk == sLength) {
+                break;
+            }
+
+            while (tempSet.contains(s.charAt(rk))) {
+                tempSet.remove(s.charAt(lk));
+                lk++;
+            }
+
+            max = Math.max(max, rk - lk + 1);
+
         }
+        return max;
+    }
+
+    //最终版，调整了方法2的顺序，更高效
+    public int lengthOfLongestSubstring(String s) {
+        Set<Character> tempSet = new HashSet<Character>();
+        int sLength = s.length();
+        int max = 0;
+        int rk = 0, lk = 0;
+
+        while (lk + max < sLength) {
+            while (tempSet.contains(s.charAt(rk))) {
+                tempSet.remove(s.charAt(lk));
+                lk++;
+            }
+
+            while (rk < sLength && !tempSet.contains(s.charAt(rk))) {
+                tempSet.add(s.charAt(rk));
+                rk++;
+            }
+
+            max = Math.max(max, rk - lk);
+        }
+        return max;
     }
 }
