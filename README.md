@@ -7,7 +7,7 @@ Leetcode recording. Rush Rush Rush
 |    双指针    | 26、27、11、15、19、31 |
 |  KMP SUNDAY  |           28           |
 |   动态规划   |     70、10、21、32     |
-|     回溯     |         17、21         |
+|     回溯     |       17、21、39       |
 | 深度优先搜索 |           21           |
 |     分治     |           23           |
 |      栈      |           32           |
@@ -31,7 +31,7 @@ Leetcode recording. Rush Rush Rush
 
 - 33：边界条件考虑清楚即可
 
-- 34：二分模板
+- 34：**二分模板**
 
   ```java
   //[l,mid][mid+1,l]
@@ -56,7 +56,11 @@ Leetcode recording. Rush Rush Rush
   
   ```
 
-  
+- 39：回溯递归， 深度优先搜索，注意 **在JAVA编程思想中，不建议使用Stack，用LinkedList替代更好**。
 
+  
+  
+  
+  
   focus on 100hot
 
