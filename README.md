@@ -62,6 +62,8 @@ Leetcode recording. Rush Rush Rush
 
 - 46：典型深度优先搜索
 
+- 48：找规律，简单
+
   
   
   focus on 100hot
