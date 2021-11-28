@@ -70,6 +70,8 @@ Leetcode recording. Rush Rush Rush
 
 - 56：主要注意先排序
 
+- 62：虽然可以动态规划，但是是典型的组合题
+
   
   
   focus on 100hot
