@@ -68,6 +68,8 @@ Leetcode recording. Rush Rush Rush
 
 - 55：动态规划，注意效率高的写法
 
+- 56：主要注意先排序
+
   
   
   focus on 100hot
