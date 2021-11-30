@@ -7,7 +7,7 @@ Leetcode recording. Rush Rush Rush
 |     双指针      | 26、27、11、15、19、31、42、75 |
 |   KMP SUNDAY    |             28             |
 |    动态规划     | 70、10、21、32、42、55、64、72 |
-|      回溯       |         17、21、39、 78         |
+|      回溯（递归）      |         17、21、39、 78、79         |
 | 深度优先搜索dfs |           21、46           |
 |      分治       |             23             |
 |       栈        |           32、42           |
@@ -84,5 +84,11 @@ Leetcode recording. Rush Rush Rush
   
 - 78：回溯，前向深度遍历
 
+- 79：回溯，一开始用HashSet很慢，改成BOOL数组就好了
+
+  
+  
+  
+  
   focus on 100hot
 
