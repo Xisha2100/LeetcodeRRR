@@ -13,6 +13,7 @@ Leetcode recording. Rush Rush Rush
 |       栈        |           32、42           |
 |      二分       |           33、34           |
 |      数学       |             62             |
+|     滑动窗口     |    76  |
 
 - 11：有趣的双指针，装水问题
 
@@ -78,6 +79,8 @@ Leetcode recording. Rush Rush Rush
 - 72：典型动态规划，但有难度，二维的
   
 - 75：双指针
+
+- 76：有趣且有难度的滑动窗口
   
   
   focus on 100hot
