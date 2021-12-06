@@ -14,6 +14,7 @@ Leetcode recording. Rush Rush Rush
 |      二分       |           33、34           |
 |      数学       |             62、96             |
 |     滑动窗口     |    76  |
+|   中序遍历    | 94、98    |
 
 - 11：有趣的双指针，装水问题
 
@@ -94,7 +95,7 @@ Leetcode recording. Rush Rush Rush
 
 - 96：动态规划，找规律题
 
-  
+- 98：利用98的颜色标记法，很好理解，但性能较差。
   
   
   

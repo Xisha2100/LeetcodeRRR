@@ -1,0 +1,136 @@
+//给你一个二叉树的根节点 root ，判断其是否是一个有效的二叉搜索树。 
+//
+// 有效 二叉搜索树定义如下： 
+//
+// 
+// 节点的左子树只包含 小于 当前节点的数。 
+// 节点的右子树只包含 大于 当前节点的数。 
+// 所有左子树和右子树自身必须也是二叉搜索树。 
+// 
+//
+// 
+//
+// 示例 1： 
+//
+// 
+//输入：root = [2,1,3]
+//输出：true
+// 
+//
+// 示例 2： 
+//
+// 
+//输入：root = [5,1,4,null,null,3,6]
+//输出：false
+//解释：根节点的值是 5 ，但是右子节点的值是 4 。
+// 
+//
+// 
+//
+// 提示： 
+//
+// 
+// 树中节点数目范围在[1, 10⁴] 内 
+// -2³¹ <= Node.val <= 2³¹ - 1 
+// 
+// Related Topics 树 深度优先搜索 二叉搜索树 二叉树 👍 1334 👎 0
+
+
+package top.nzhz.leetcode.editor.cn;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class ValidateBinarySearchTree {
+    public static void main(String[] args) {
+        Solution solution = new ValidateBinarySearchTree().new Solution();
+        solution.isValidBST(new ValidateBinarySearchTree().new TreeNode(2,
+                new ValidateBinarySearchTree().new TreeNode(1), new ValidateBinarySearchTree().new TreeNode(3)));
+    }
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode() {}
+     * TreeNode(int val) { this.val = val; }
+     * TreeNode(int val, TreeNode left, TreeNode right) {
+     * this.val = val;
+     * this.left = left;
+     * this.right = right;
+     * }
+     * }
+     */
+    class Solution {
+        class ColorTree{
+            TreeNode root;
+            boolean isVisited;
+
+            public ColorTree(TreeNode root, boolean isVisited) {
+                this.root = root;
+                this.isVisited = isVisited;
+            }
+        }
+
+        public boolean isValidBST(TreeNode root) {
+            Deque<ColorTree> stack = new ArrayDeque<>();
+            double curMin = -Double.MAX_VALUE;
+            stack.push(new ColorTree(root,false));
+            while (!stack.isEmpty()){
+                ColorTree temp=stack.pop();
+                if(!temp.isVisited){
+                    if(temp.root.right!=null) stack.push(new ColorTree(temp.root.right,false));
+                    temp.isVisited=true;
+                    stack.push(temp);
+                    if(temp.root.left!=null)stack.push(new ColorTree(temp.root.left,false));
+                }else {
+                    if(curMin>=temp.root.val) return false;
+                    curMin=temp.root.val;
+                }
+            }
+            return true;
+        }
+//        public boolean isValidBST(TreeNode root) {
+//            Deque<TreeNode> stack = new ArrayDeque<>();
+//            double temp = -Double.MAX_VALUE;
+//            while (root != null || !stack.isEmpty()) {
+//                while (root != null) {
+//                    stack.push(root);
+//                    root = root.left;
+//                }
+//                root = stack.pop();
+//                if (temp >= root.val) return false;
+//                temp = root.val;
+//                root = root.right;
+//
+//            }
+//            return true;
+//        }
+
+    }
+//leetcode submit region end(Prohibit modification and deletion)
+
+}
