@@ -96,6 +96,23 @@ Leetcode recording. Rush Rush Rush
 - 96：动态规划，找规律题
 
 - 98：利用98的颜色标记法，很好理解，但性能较差。
+```python
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        WHITE, GRAY = 0, 1
+        res = []
+        stack = [(WHITE, root)]
+        while stack:
+            color, node = stack.pop()
+            if node is None: continue
+            if color == WHITE:
+                stack.append((WHITE, node.right))
+                stack.append((GRAY, node))
+                stack.append((WHITE, node.left))
+            else:
+                res.append(node.val)
+        return res
+```
   
 - 101：**注意ArrayDeque 不接受空元素null ，如果有空请使用LinkedList**
   
