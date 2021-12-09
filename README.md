@@ -133,6 +133,8 @@ class Solution:
 - 124：递归题，找到规律
 
 - 128：HashSet常规解法，还用了**并查集**新概念
+
+- 136：过于简单
   
   focus on 100hot
 
