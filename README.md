@@ -144,6 +144,10 @@ class Solution:
 - 142：同上
 
 - 146：**LRU非常重要**
+
+
+
+- 206：反转链表两种方式
   
 
   focus on 100hot
