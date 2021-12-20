@@ -195,6 +195,8 @@ private void QSRand(int[] nums, int left, int right) {
 ```
 - 221：找规律动态规划
   
+- 226：简单题
+
 
 focus on 100hot
 
