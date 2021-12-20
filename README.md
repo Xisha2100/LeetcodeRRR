@@ -22,6 +22,8 @@ Leetcode recording. Rush Rush Rush
 |     并查集      |                       128、                       |
 |       LRU       |                        146                        |
 |      链表       |                        148                        |
+|      快排       |                        215                        |
+|      建堆       |                        215                        |
 
 - 11：有趣的双指针，装水问题
 
@@ -167,6 +169,30 @@ class Solution:
 
 - 208：写了个前缀树
   
+- 215：**快排、建堆** 非常重要
+```java
+//快排 
+private void QSRand(int[] nums, int left, int right) {
+    if(left>=right) return;
+    int rand = (int) (Math.random() * (right - left) + left);
+    swap(nums,left,rand);
+    int x=nums[left];
+    int i=left,j=right;
+    while (i<j){
+        while (nums[j]<=x&&i<j){
+            j--;
+        }
+        swap(nums,i,j);
+        while (nums[i]>=x&&i<j){
+            i++;
+        }
+        swap(nums,i,j);
+    }
+
+    QSRand(nums,left,i-1);
+    QSRand(nums,i+1,right);
+}
+```
   
   
 
