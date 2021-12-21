@@ -210,6 +210,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - 279：动态规划，其中的四数定理非常神奇，但是用处不大。
 
+- 283：简单题
+
 
 focus on 100hot
 
