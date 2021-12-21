@@ -206,7 +206,7 @@ private void QSRand(int[] nums, int left, int right) {
 
 - 239：**单调队列**
 
-
+- 240：二维查找，注意判断的切入点
 
 
 focus on 100hot
