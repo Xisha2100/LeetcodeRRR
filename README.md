@@ -218,6 +218,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - 300：动态规划，和数学优化，
 
+- O09：两个栈实现队列，简单而经典
+
   
 
 
