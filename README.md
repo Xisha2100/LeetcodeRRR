@@ -220,6 +220,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O09：两个栈实现队列，简单而经典
 
+- O10：注意不要死递归即可
+
   
 
 
