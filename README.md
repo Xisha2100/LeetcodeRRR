@@ -195,11 +195,11 @@ private void QSRand(int[] nums, int left, int right) {
 }
 ```
 - 221：找规律动态规划
-  
+
 - 226：简单题
 
 - 234：虽然是简单题，但递归的解法比较妙
-  
+
 - 236：深度优先搜索的题，重点在于发现规律
 
 - 238：前缀和
@@ -211,6 +211,10 @@ private void QSRand(int[] nums, int left, int right) {
 - 279：动态规划，其中的四数定理非常神奇，但是用处不大。
 
 - 283：简单题
+
+- 287：快慢指针、桶查找
+
+  
 
 
 focus on 100hot
