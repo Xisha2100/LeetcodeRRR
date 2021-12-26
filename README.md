@@ -223,6 +223,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O10：注意不要死递归即可
 
+- O03：桶排，可以用快慢指针
+
   
 
 
