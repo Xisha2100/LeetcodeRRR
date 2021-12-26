@@ -225,6 +225,10 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O03：桶排，可以用快慢指针
 
+- O04：和240一样
+
+- O10：斐波那契数列
+
   
 
 
