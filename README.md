@@ -23,7 +23,7 @@ Leetcode recording. Rush Rush Rush
 |       LRU       |                             146                              |
 |      链表       |                             148                              |
 |      快排       |                             215                              |
-|      建堆       |                             215                              |
+|      建堆       |                           215、347                           |
 |     前缀和      |                             238                              |
 
 ## HOT100
@@ -214,6 +214,7 @@ private void QSRand(int[] nums, int left, int right) {
 - 322：动态规划
 - 337：小偷题，分析具体动态规划递推关系
 - 338：数学问题找规律
+- 347：用堆排序
 
 
 
