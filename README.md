@@ -25,6 +25,7 @@ Leetcode recording. Rush Rush Rush
 |      快排       |                             215                              |
 |      建堆       |                           215、347                           |
 |     前缀和      |                             238                              |
+|      排序       |                             406                              |
 
 ## HOT100
 
@@ -217,6 +218,7 @@ private void QSRand(int[] nums, int left, int right) {
 - 347：用堆排序
 - 394：字符串题，栈的思想很好解决
 - 399：带权并查集 **非常经典**
+- 406：排序问题，找到插入逻辑
 
 
 
