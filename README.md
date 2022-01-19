@@ -226,6 +226,7 @@ private void QSRand(int[] nums, int left, int right) {
 - 461：简单题
 - 494：**典型0-1背包问题**，需要转换思路
 - 538：反中序遍历
+- 543：简单的树，求高度
 
 
 
