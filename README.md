@@ -24,7 +24,7 @@ Leetcode recording. Rush Rush Rush
 |      链表       |                             148                              |
 |      快排       |                             215                              |
 |      建堆       |                           215、347                           |
-|     前缀和      |                             238                              |
+|     前缀和      |                           238、560                           |
 |      排序       |                             406                              |
 
 ## HOT100
@@ -227,6 +227,7 @@ private void QSRand(int[] nums, int left, int right) {
 - 494：**典型0-1背包问题**，需要转换思路
 - 538：反中序遍历
 - 543：简单的树，求高度
+- 560：前缀和
 
 
 
