@@ -256,6 +256,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O06：反转链表
 
+- O07：等同于105
+
   
 
 
