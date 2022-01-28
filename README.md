@@ -252,6 +252,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O11：二分查找
 
+- O05：简单字符串
+
   
 
 
