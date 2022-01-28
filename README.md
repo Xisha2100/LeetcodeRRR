@@ -254,6 +254,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O05：简单字符串
 
+- O06：反转链表
+
   
 
 
