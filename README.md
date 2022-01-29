@@ -262,6 +262,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O13：动态规划
 
+- O14：数学
+
   
 
 
