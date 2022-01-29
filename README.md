@@ -260,6 +260,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O12：等同79
 
+- O13：动态规划
+
   
 
 
