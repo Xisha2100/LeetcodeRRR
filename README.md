@@ -258,6 +258,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O07：等同于105
 
+- O12：等同79
+
   
 
 
