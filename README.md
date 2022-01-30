@@ -264,6 +264,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O14：数学（大数）
 
+- O15：简单题
+
   
 
 
