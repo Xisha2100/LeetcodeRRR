@@ -266,6 +266,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O15：简单题
 
+- O16：数学问题优化一下
+
   
 
 
