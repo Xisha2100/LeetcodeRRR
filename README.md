@@ -272,6 +272,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O20：官方题解想用状态机
 
+- O21：简单数组
+
   
 
 
