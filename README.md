@@ -278,6 +278,10 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O26：深度优先搜索
 
+- O27、28、29：简单题
+
+- O30：最小栈
+
   
 
 
