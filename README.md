@@ -274,6 +274,10 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O21：简单数组
 
+- O22、O24、O25：简单题
+
+- O26：深度优先搜索
+
   
 
 
