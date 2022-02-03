@@ -282,6 +282,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O30：最小栈
 
+- O31：简单
+
   
 
 
