@@ -267,6 +267,7 @@ private void QSRand(int[] nums, int left, int right) {
 - O34：递归DFS
 - O35：数据结构的应用，有点意思
 - O36：**二叉树中序典型例题**
+- O37:  同297，需要重视
 
 
 
