@@ -269,6 +269,7 @@ private void QSRand(int[] nums, int left, int right) {
 - O36：**二叉树中序典型例题**
 - O37:  同297，需要重视
 - O38：典型回溯题，可以考虑31题的做法
+- O39、40：简单题
 
 
 
