@@ -271,6 +271,7 @@ private void QSRand(int[] nums, int left, int right) {
 - O38：典型回溯题，可以考虑31题的做法
 - O39、40：简单题
 - O41：两个优先队列实现
+- O42：背包问题
 
 
 
