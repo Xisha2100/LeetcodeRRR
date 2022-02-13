@@ -273,6 +273,7 @@ private void QSRand(int[] nums, int left, int right) {
 - O41：两个优先队列实现
 - O42：背包问题
 - O43：数学规律
+- O44：数学规律
 
 
 
