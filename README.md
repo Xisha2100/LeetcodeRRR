@@ -308,15 +308,13 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O44：数学规律
 
-- O44：**注意题解中的lamada表达式**
+- O45：**注意题解中的lamada表达式**
 
   ```java
   Arrays.sort(strs,(x,y)->(x+y).compareTo(y+x));
   ```
 
-  
-
-
+- O46：动态规划
 
 
 
