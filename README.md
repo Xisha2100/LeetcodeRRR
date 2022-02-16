@@ -314,7 +314,9 @@ private void QSRand(int[] nums, int left, int right) {
   Arrays.sort(strs,(x,y)->(x+y).compareTo(y+x));
   ```
 
-- O46：动态规划
+- O46、47：动态规划
+
+- 
 
 
 
