@@ -316,7 +316,11 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O46、47：动态规划
 
-- 
+- O48：滑动窗口
+
+- O49：动态规划
+
+- O50：桶排
 
 
 
