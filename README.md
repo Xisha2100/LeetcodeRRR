@@ -326,6 +326,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O52：同160题，优雅双指针
 
+- O53：二分查找，参考二分模板
+
 
 
 
