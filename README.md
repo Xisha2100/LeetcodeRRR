@@ -324,6 +324,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O51：归并排序
 
+- O52：同160题，优雅双指针
+
 
 
 
