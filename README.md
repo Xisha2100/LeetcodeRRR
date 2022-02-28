@@ -322,6 +322,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O50：桶排
 
+- O51：归并排序
+
 
 
 
