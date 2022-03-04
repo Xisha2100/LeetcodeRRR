@@ -332,6 +332,7 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O56：位运算
 
+- O57：双指针
 
 
 
