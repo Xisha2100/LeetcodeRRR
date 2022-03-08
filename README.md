@@ -334,7 +334,7 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O57：双指针
 
-
+- O58：翻转字符串 注意trim()使用
 
 focus on 100hot
 
