@@ -342,5 +342,23 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O61：简单题
 
+
+
+
+
+注意流Stream
+
+```java
+            Arrays.stream(users)
+                    .filter(user -> user.getID() % 2 == 0)
+                    .filter(user -> user.getAge() > 23)
+                    .limit(1)
+//                    .map(user->new User(user.age,user.ID,user.name= new StringBuilder(user.name).reverse().toString().toUpperCase()))
+                    .filter(user->{user.setName(new StringBuilder(user.getName()).reverse().toString().toUpperCase());return true;})
+                    .forEach(System.out::println);
+```
+
+
+
 focus on 100hot
 
