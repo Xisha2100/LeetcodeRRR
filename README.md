@@ -342,6 +342,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O61：简单题
 
+- O62：注意递归逻辑，简单题不简单
+
 
 
 
