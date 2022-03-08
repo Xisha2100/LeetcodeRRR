@@ -338,5 +338,7 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O59：滑动窗口，单调队列
 
+- O60：简单数学问题 动态规划
+
 focus on 100hot
 
