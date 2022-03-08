@@ -336,5 +336,7 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O58：翻转字符串 注意trim()使用
 
+- O59：滑动窗口，单调队列
+
 focus on 100hot
 
