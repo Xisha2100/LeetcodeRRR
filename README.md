@@ -340,5 +340,7 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O60：简单数学问题 动态规划
 
+- O61：简单题
+
 focus on 100hot
 
