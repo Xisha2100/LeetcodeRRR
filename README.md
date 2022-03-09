@@ -350,6 +350,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O66：考虑dp即可
 
+- O67：简单题
+
 
 
 
