@@ -346,6 +346,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O63、O64：简单题
 
+- O65：数电题
+
 
 
 
