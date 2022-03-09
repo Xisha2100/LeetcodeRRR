@@ -270,6 +270,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O17、O18：简单题
 
+- O19：正则表达式
+
 - O20：官方题解想用状态机
 
 - O21：简单数组
