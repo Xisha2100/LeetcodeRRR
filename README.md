@@ -352,6 +352,8 @@ private void QSRand(int[] nums, int left, int right) {
 
 - O67：简单题
 
+- O68：二叉树公共祖先
+
 
 
 
