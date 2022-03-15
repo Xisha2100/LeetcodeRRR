@@ -374,5 +374,7 @@ private void QSRand(int[] nums, int left, int right) {
 
 
 
-focus on 100hot
+## TOP200
+
+- 8：简单字符串转换问题
 
