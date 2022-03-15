@@ -378,3 +378,5 @@ private void QSRand(int[] nums, int left, int right) {
 
 - 8：简单字符串转换问题
 
+- 29：简单题
+
