@@ -380,4 +380,5 @@ private void QSRand(int[] nums, int left, int right) {
 - 29：简单题
 - 36：桶排序问题
 - 41：难点在于常数空间
+- 44：有难度的字符串匹配，可以用dp
 
