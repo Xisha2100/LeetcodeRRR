@@ -383,3 +383,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 44：有难度的字符串匹配，可以用dp
 - 50：数学方法 快速幂值得一提 2进制
 - 54：空间想象力
+- 73：较为简单
