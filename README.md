@@ -382,3 +382,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 41：难点在于常数空间
 - 44：有难度的字符串匹配，可以用dp
 
+- 50：数学方法 快速幂值得一提 2进制
