@@ -389,3 +389,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 116：层序遍历
 - 118：简单题
 - 122：简单动态规划
+- 125：简单题
