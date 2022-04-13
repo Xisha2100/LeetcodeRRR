@@ -393,3 +393,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 127：有难度的图题，重点是不要先建图，会超时，直接BFS
 - 130：深搜
 - 131：回溯
+- 124：有趣的循环处理
