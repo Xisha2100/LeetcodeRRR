@@ -396,3 +396,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 124：有趣的循环处理
 - 138：深拷贝
 - 140：回溯
+- 150：栈
