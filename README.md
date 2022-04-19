@@ -403,3 +403,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 172：处理尾数为0的方法
 - 179：注意lamada表达式 String 的compareto
 - 189: O1方案值得看一看
+- 190：分治方法很棒
