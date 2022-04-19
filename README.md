@@ -400,3 +400,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 150：栈
 - 166：精确计算
 - 171：简单题
+- 172：处理尾数为0的方法
