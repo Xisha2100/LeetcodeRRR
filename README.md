@@ -399,3 +399,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 149：暴力
 - 150：栈
 - 166：精确计算
+- 171：简单题
