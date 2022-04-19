@@ -398,3 +398,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 140：回溯
 - 149：暴力
 - 150：栈
+- 166：精确计算
