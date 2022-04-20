@@ -407,3 +407,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 191：调库就很不错
 - 202：简单题
 - 204：线性筛
+- 210：图的问题，怎么构建图比较关键
