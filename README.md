@@ -406,3 +406,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 190：分治方法很棒
 - 191：调库就很不错
 - 202：简单题
+- 204：线性筛
