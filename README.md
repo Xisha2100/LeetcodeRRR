@@ -408,3 +408,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 202：简单题
 - 204：线性筛
 - 210：图的问题，怎么构建图比较关键
+- 212：单词前缀树Tire
