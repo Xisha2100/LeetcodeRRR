@@ -413,3 +413,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 218：难题，注意线性排序
 - 227：做了个有趣的转移方程而非用栈
 - 230：非常简单的树查找问题
+- 237：简单题，脑筋急转弯
