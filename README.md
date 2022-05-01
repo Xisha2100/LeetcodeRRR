@@ -411,3 +411,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 212：单词前缀树Tire
 - 217：简单题
 - 218：难题，注意线性排序
+- 227：做了个有趣的转移方程而非用栈
