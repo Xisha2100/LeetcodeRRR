@@ -415,3 +415,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 230：非常简单的树查找问题
 - 237：简单题，脑筋急转弯
 - 242：简单题
+- 268：简单题，但是有巧妙做法
