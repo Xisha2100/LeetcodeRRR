@@ -416,3 +416,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 237：简单题，脑筋急转弯
 - 242：简单题
 - 268：简单题，但是有巧妙做法
+- 289：生命游戏，卡诺图
