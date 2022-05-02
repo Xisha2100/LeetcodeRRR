@@ -417,3 +417,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 242：简单题
 - 268：简单题，但是有巧妙做法
 - 289：生命游戏，卡诺图
+- 295：难题但是做过了，两个堆中位数
