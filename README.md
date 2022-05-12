@@ -423,3 +423,4 @@ private void QSRand(int[] nums, int left, int right) {
 - 326：简单题 思路有意思
 - 328：链表
 - 329：记忆化搜索
+- 334：贪心，状态保存的方式很节省
