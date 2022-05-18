@@ -427,6 +427,9 @@ private void QSRand(int[] nums, int left, int right) {
 - 341：扁平化迭代器
 - 344：过于简单
 - 350：简单题，但也可以复杂
+- 371：位运算
+- 378：矩阵第K小
+
 
 ## 每日一题
 
