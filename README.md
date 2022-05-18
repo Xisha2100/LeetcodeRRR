@@ -429,6 +429,7 @@ private void QSRand(int[] nums, int left, int right) {
 - 350：简单题，但也可以复杂
 - 371：位运算
 - 378：矩阵第K小
+- 380：设计题
 
 
 ## 每日一题
