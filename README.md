@@ -436,3 +436,4 @@ private void QSRand(int[] nums, int left, int right) {
 ## 每日一题
 
 - M04.06：中序遍历
+- M07.16：fifo
