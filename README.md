@@ -432,6 +432,8 @@ private void QSRand(int[] nums, int left, int right) {
 - 380：设计题
 - 384：简单数组打乱
 - 387：简单题
+- 412：简单题
+
 
 
 ## 每日一题
