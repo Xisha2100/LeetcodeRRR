@@ -433,6 +433,7 @@ private void QSRand(int[] nums, int left, int right) {
 - 384：简单数组打乱
 - 387：简单题
 - 412：简单题
+- 454：本以为是背包，其实用HashMap简化算法即可。将复杂度O（n^4）降到O（n^2）
 
 
 
