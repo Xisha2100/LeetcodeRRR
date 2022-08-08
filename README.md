@@ -26,6 +26,7 @@ Leetcode recording. Rush Rush Rush
 |      建堆       |                        215、347、621                         |
 |     前缀和      |                           238、560                           |
 |      排序       |                           406、621                           |
+|		图论	  |								310							     |
 
 ## HOT100
 
@@ -445,3 +446,6 @@ private void QSRand(int[] nums, int left, int right) {
 
 ## 面试合集
 - 25：链表翻转再组合，困难题，注意边界条件即可
+
+## 图论
+- 310：中等难度，实际较难，其中DFS和拓扑排序都可以作为例题
