@@ -454,6 +454,7 @@ private void QSRand(int[] nums, int left, int right) {
 - 143：链表题
 - 151：字符串反转
 - 199：树的右视图
+- 232：用栈实现队列
 
 ## 图论
 - 310：中等难度，实际较难，其中DFS和拓扑排序都可以作为例题
